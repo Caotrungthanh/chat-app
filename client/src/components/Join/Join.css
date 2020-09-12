@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.joinOuterContainer {
+    width: 100%;
+    height: 100vh;
+    background: #212121;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.joinInnerContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 35px;
+    border-bottom: 2px solid #FFF;
+    padding: 10px;
+    color: #4cd137;
+}
+
+.joinInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    background: #4cd137;
+    color: #FFF;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
